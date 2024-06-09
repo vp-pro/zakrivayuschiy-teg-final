@@ -253,7 +253,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px 0px 2px var(--accent-color);
-  outline: 2px solid var(--accent-color);
 }
 
 .button::after {
