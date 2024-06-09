@@ -21,7 +21,7 @@
   font-variation-settings: 'wght' var(--font-weight-card-text) var(--font-weight-card-title);
   color: var(--accent-color);
   background-color: var(--background-color);
-  background-image: var(--background-image);                  
+  background-image: var(--background-image);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@
 .theme-menu__button:disabled {
   opacity: 0.6;
   pointer-events: none;
-} 
+}
 
 .theme-menu__button:disabled::before {
   content: '▶';
@@ -96,7 +96,7 @@
   position: absolute;
   left: -85px;
   top: 0;
-} 
+}
 
 .theme-menu__item {
   position: relative;
@@ -173,7 +173,7 @@
 
 .filter_contrast {
   filter: contrast(120%);
-}   
+}
 
 .filter_csepia {
   filter: sepia(0.4);
@@ -213,7 +213,7 @@
       text-stroke: 1px #FFF;
       text-shadow: none;
   }
-} 
+}
 
 .card_title {
   font-size: 18px;
@@ -337,7 +337,7 @@
 
 .modal-window::backdrop {
   background-color: rgb(0 0 0 / 0.75);
-} 
+}
 
 .modal-window {
   background-color: var(--background-color);
@@ -413,7 +413,7 @@
   .dialog__button {
     flex-direction: column;
     width: 306px;
-  } 
+  }
 
   .floppy {
     width: 28px;
